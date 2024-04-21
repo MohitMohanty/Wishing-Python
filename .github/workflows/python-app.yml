@@ -37,3 +37,5 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: run python script
+      run : inde.py
