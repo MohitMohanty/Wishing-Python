@@ -24,7 +24,8 @@ def main():
     text_files = list_text_files()
     while True:
         display_options(text_files)
-        option = input("Enter your choice: ")
+        #option = input("Enter your choice: ")
+        option = sys.argv[1]
 
         if option.isdigit():
             option = int(option)
